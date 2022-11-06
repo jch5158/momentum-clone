@@ -1,0 +1,34 @@
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+
+/* base */
+@import "./reset.css";
+
+/* components */
+@import "../components/background.css";
+
+/* screens */
+@import "../screens/index.css";
+
+.hidden {
+  display: none;
+}
+
+body {
+  color: white;
+}
+
+input[type="text"] {
+  width: 100%;
+  display: block;
+  background: none;
+  border: 0;
+  border-bottom: 2px solid white;
+  color: white;
+  font-size: 40px;
+  line-height: 1.2;
+  font-weight: 500;
+  outline: none;
+  text-align: center;
+  transition: border-color 0.2s ease;
+}
